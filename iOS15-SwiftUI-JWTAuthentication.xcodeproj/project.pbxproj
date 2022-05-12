@@ -11,6 +11,8 @@
 		DCD48298282C0FD500BF0E9F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD48297282C0FD500BF0E9F /* ContentView.swift */; };
 		DCD4829A282C0FD600BF0E9F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCD48299282C0FD600BF0E9F /* Assets.xcassets */; };
 		DCD4829D282C0FD600BF0E9F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCD4829C282C0FD600BF0E9F /* Preview Assets.xcassets */; };
+		DCD482A5282D559600BF0E9F /* Webservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD482A4282D559600BF0E9F /* Webservice.swift */; };
+		DCD482A8282D6D0D00BF0E9F /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD482A7282D6D0D00BF0E9F /* LoginViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		DCD48297282C0FD500BF0E9F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DCD48299282C0FD600BF0E9F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DCD4829C282C0FD600BF0E9F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DCD482A4282D559600BF0E9F /* Webservice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Webservice.swift; sourceTree = "<group>"; };
+		DCD482A7282D6D0D00BF0E9F /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +55,8 @@
 		DCD48294282C0FD500BF0E9F /* iOS15-SwiftUI-JWTAuthentication */ = {
 			isa = PBXGroup;
 			children = (
+				DCD482A6282D6CF700BF0E9F /* ViewModels */,
+				DCD482A3282D558200BF0E9F /* Services */,
 				DCD48295282C0FD500BF0E9F /* iOS15_SwiftUI_JWTAuthenticationApp.swift */,
 				DCD48297282C0FD500BF0E9F /* ContentView.swift */,
 				DCD48299282C0FD600BF0E9F /* Assets.xcassets */,
@@ -65,6 +71,22 @@
 				DCD4829C282C0FD600BF0E9F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DCD482A3282D558200BF0E9F /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				DCD482A4282D559600BF0E9F /* Webservice.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		DCD482A6282D6CF700BF0E9F /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				DCD482A7282D6D0D00BF0E9F /* LoginViewModel.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +159,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCD482A8282D6D0D00BF0E9F /* LoginViewModel.swift in Sources */,
 				DCD48298282C0FD500BF0E9F /* ContentView.swift in Sources */,
 				DCD48296282C0FD500BF0E9F /* iOS15_SwiftUI_JWTAuthenticationApp.swift in Sources */,
+				DCD482A5282D559600BF0E9F /* Webservice.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
