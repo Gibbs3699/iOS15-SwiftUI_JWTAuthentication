@@ -16,7 +16,7 @@ struct ContentView: View {
             Form {
                 HStack {
                     Spacer()
-                    Image(systemName: "lock.fill")
+                    Image(systemName: loginVM.isAuthenticated ? "lock.fill" : "lock.open")
                 }
                 
                 TextField("Username", text: $loginVM.username)
